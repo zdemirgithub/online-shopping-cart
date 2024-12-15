@@ -1,2 +1,17 @@
-# online-shopping-cart
-Online Shopping Cart Stack: JavaScript, Node.js, Express, MongoDB  An e-commerce shopping cart solution for adding and removing products, processing payments, and managing orders.
+
+
+---
+
+## **1. Install Required Tools**
+
+### **Install Dependencies**
+```bash
+mkdir online-shopping-cart
+cd online-shopping-cart
+
+npm init -y
+
+npm install express mongoose ejs bcryptjs dotenv jsonwebtoken cookie-parser body-parser stripe
+```
+
+---
