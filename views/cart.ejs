@@ -1,0 +1,9 @@
+<h1>Your Cart</h1>
+<% cart.products.forEach(product => { %>
+  <h2><%= product.name %></h2>
+  <p>Quantity: <%= product.quantity %></p>
+  <form action="/cart/remove" method="POST">
+    <input type="hidden" name="productId" value="<%= product.productId %>">
+    <button type="submit">Remove</button>
+  </form>
+<% }) %>
